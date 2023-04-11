@@ -62,9 +62,11 @@ public class AccountController {
 		} else {
 			model.addAttribute("errorMessage", "パスワードは8文字以上かつ半角英数字に設定してください");
 			return "createAccount";
-		
+		}
 		// パラメータで受け取ったアカウント情報をDtoに格納する。
 		
 	}
-
+		
 }
+
+
