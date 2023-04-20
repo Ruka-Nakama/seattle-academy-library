@@ -76,17 +76,13 @@
             <div class="bookBtn_box">
                 <button type="submit" id="add-btn" class="btn_updateBook">更新</button>
         </form>
-<<<<<<< HEAD
-        		<form method="post" action="deleteBook" name="delete">
-                <input type="hidden" id="bookId" name="bookId" value="${bookInfo.bookId}">
-                <button type="submit" id="delete-btn" class="btn_deleteBook" >削除</button>
-
- 				</form>
- 			</div>      
-=======
+        <form method="post" action="deleteBook" name="delete">
+            <input type="hidden" id="bookId" name="bookId" value="${bookInfo.bookId}">
+            <button type="submit" id="delete-btn" class="btn_deleteBook">削除</button>
+        </form>
+        </div>
         <form method="post" action="deleteBook" name="delete"></form>
         </div>
->>>>>>> refs/remotes/origin/develop
     </main>
 </body>
 </html>
