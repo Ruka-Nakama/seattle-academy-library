@@ -80,8 +80,6 @@
             <button type="submit" id="delete-btn" class="btn_deleteBook" name="bookId" value="${bookInfo.bookId}">削除</button>
         </form>
         </div>
-        <form method="post" action="deleteBook" name="delete"></form>
-        </div>
     </main>
 </body>
 </html>
