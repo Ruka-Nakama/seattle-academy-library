@@ -33,6 +33,17 @@ public class UsersService {
 
 		jdbcTemplate.update(sql);
 	}
+	
+	public void setPassword(UserInfo userInfo) {
+
+		// SQL生成
+		String sql = "INSERT INTO users (email, password,reg_date,upd_date) VALUES ('" + userInfo.getEmail() + "','"
+				+ userInfo.getPassword() + "',now(),now()" + ")";
+
+		jdbcTemplate.update(sql);
+		
+	}
+	
 
 	/**
 	 * ユーザー情報取得
